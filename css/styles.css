@@ -1,0 +1,177 @@
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+/* вторинний колір  тексту #212121 */
+/*  колір основного тексту #757575 */
+/* білий #FFFFFF */
+/* акцент  #2196F3 */
+/* додатковий rgba(255, 255, 255, 0.6) */
+/* основний колір фону #FFFFFF */
+/* додатковий колір фону #F5F4FA; */
+
+/* logo */
+.logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+.logo-part {   
+         color: #000000;
+}
+
+/* site nav */
+.site-nav .link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+        color:#2196F3
+}
+.list {
+    list-style:none
+}
+
+/* auth nav */
+.auth-nav .contact-link {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+        color: #2196F3
+}
+
+/* hero */
+.hero {
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #FFFFFF;
+        background-color: #2F303A
+}
+.hero-name {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+}
+.hero-button {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #FFFFFF;
+}
+.hero-button .link:hover,
+.hero-button .link:focus {
+        color: #000000;
+}
+
+/* advantages */
+.advantages .visually-hidden {
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;
+}
+.advantage {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+}
+.advantage-desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+/* tasks */
+.tasks {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+/* team */
+.team {font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #212121;
+
+}
+.team-member {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.member-speciality {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+}
+
+/* address */
+.address {
+        background: #2F303A;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+.address-link {
+        color: #FFFFFF;
+}
+.contact_link {
+        color: rgba(255, 255, 255, 0.6);
+}
+.address-link .link:hover,
+.address-link .link:focus {
+        color: #2196F3
+}
+.contact_link .link:hover,
+.contact_link .link:focus {
+        color: #2196F3
+}
