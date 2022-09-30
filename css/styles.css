@@ -199,9 +199,9 @@ body {
         font-size: 16px;
         line-height: 1.625;
         letter-spacing: 0.03em;
-        color: var(--title-text-color)
         background-color: var(--secondary-background-color);
-        border-radius: 4px;
+        color: var(--title-text-color)
+        
 }
 .filter .filter-button:hover,
 .filter .filter-button:focus {
