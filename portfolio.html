@@ -14,22 +14,24 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a lang="en" href="./index.html"> WebStudio </a>
+    <header class="header">
+      <a lang="en" href="./index.html" class="logo"
+        >Web<span class="logo-part">Studio</span></a
+      >
       <nav>
-        <ul>
+        <ul class="site-nav list">
           <li>
-            <a href="./index.html">Студія</a>
+            <a href="./index.html" class="link">Студія</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфоліо</a>
+            <a href="./portfolio.html" class="link current">Портфоліо</a>
           </li>
           <li>
-            <a href="#">Контакти</a>
+            <a href="#" class="link">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="auth-nav list">
         <li>
           <a href="mailto:info@devstudio.com" class="contact-link"
             >info@devstudio.com</a
@@ -42,25 +44,25 @@
     </header>
     <main>
       <section>
-        <h1>Портфоліо</h1>
-        <ul>
+        <h1 class="visually-hidden">Портфоліо</h1>
+        <ul class="filter list">
           <li>
-            <button type="button">Усі</button>
+            <button type="button" class="filter-button">Усі</button>
           </li>
           <li>
-            <button type="button">Веб-сайти</button>
+            <button type="button" class="filter-button">Веб-сайти</button>
           </li>
           <li>
-            <button type="button">Додатки</button>
+            <button type="button" class="filter-button">Додатки</button>
           </li>
           <li>
-            <button type="button">Дизайн</button>
+            <button type="button" class="filter-button">Дизайн</button>
           </li>
           <li>
-            <button type="button">Маркетинг</button>
+            <button type="button" class="filter-button">Маркетинг</button>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/portfolio1.jpg"
@@ -69,8 +71,8 @@
               width="370"
             />
             <div>
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project">Технокряк</h2>
+              <p class="project-desc">Веб-сайт</p>
             </div>
           </li>
           <li>
@@ -81,8 +83,10 @@
               width="370"
             />
             <div>
-              <h2>Постер <span lang="en">Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="project">
+                Постер <span lang="en">Orlean vs Golden Star</span>
+              </h2>
+              <p class="project-desc">Дизайн</p>
             </div>
           </li>
           <li>
@@ -93,8 +97,8 @@
               width="370"
             />
             <div>
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Додаток</p>
+              <h2 class="project">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="project-desc">Додаток</p>
             </div>
           </li>
           <li>
@@ -105,8 +109,8 @@
               width="370"
             />
             <div>
-              <h2>Проєкт <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="project">Проєкт <span lang="en">Prime</span></h2>
+              <p class="project-desc">Маркетинг</p>
             </div>
           </li>
           <li>
@@ -117,8 +121,8 @@
               width="370"
             />
             <div>
-              <h2>Проєкт <span lang="en">Boxes</span></h2>
-              <p>Додаток</p>
+              <h2 class="project">Проєкт <span lang="en">Boxes</span></h2>
+              <p class="project-desc">Додаток</p>
             </div>
           </li>
           <li>
@@ -129,8 +133,10 @@
               width="370"
             />
             <div>
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="project" class="project" lang="en">
+                Inspiration has no Borders
+              </h2>
+              <p class="project-desc">Веб-сайт</p>
             </div>
           </li>
           <li>
@@ -141,8 +147,10 @@
               width="370"
             />
             <div>
-              <h2>Видання <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="project">
+                Видання <span lang="en">Limited Edition</span>
+              </h2>
+              <p class="project-desc">Дизайн</p>
             </div>
           </li>
           <li>
@@ -153,8 +161,8 @@
               width="370"
             />
             <div>
-              <h2>Проєкт <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="project">Проєкт <span lang="en">LAB</span></h2>
+              <p class="project-desc">Маркетинг</p>
             </div>
           </li>
           <li>
@@ -165,32 +173,35 @@
               width="370"
             />
             <div>
-              <h2 lang="en">Growing Business</h2>
-              <p>Додаток</p>
+              <h2 class="project" lang="en">Growing Business</h2>
+              <p class="project-desc">Додаток</p>
             </div>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a lang="en" href="./index.html"> WebStudio </a>
-      <address>
-        <ul>
+      <a lang="en" href="./index.html" class="logo"
+        >Web<span class="logo-part">Studio</span></a
+      >
+      <address class="address">
+        <ul class="address-list list">
           <li>
             <a
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              class="address-link"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="contact_link"
+            <a href="mailto:info@devstudio.com" class="contact-link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="contact_link"
+            <a href="tel:+380961111111" class="contact-link"
               >+38 096 111 11 11</a
             >
           </li>
